@@ -50,6 +50,8 @@ RUN apt-get update && apt-get upgrade -y && \
     ros-${ROS_DISTRO}-urdf-tutorial \
     ros-${ROS_DISTRO}-apriltag-ros \
     ros-${ROS_DISTRO}-gz-ros2-control \
+    ros-${ROS_DISTRO}-v4l2-camera \
+    ros-${ROS_DISTRO}-camera-calibration \
     x11-apps \
     xauth \
     --fix-missing
