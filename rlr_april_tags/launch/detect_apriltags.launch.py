@@ -14,7 +14,6 @@ def generate_launch_description():
         package='image_proc',
         executable='rectify_node',
         name='rectify_node',
-        namespace='camera',
         remappings=[
             ('image', '/image_raw'),
             ('camera_info', '/camera_info'),
@@ -28,8 +27,8 @@ def generate_launch_description():
         name='apriltag',
         parameters=[apriltag_config],
         remappings=[
-            ('image_rect', '/camera/image_rect'),
-            ('camera_info', '/camera/camera_info')
+            ('image_rect', '/image_rect'),
+            ('camera_info', '/camera_info')
         ]
     )
     
