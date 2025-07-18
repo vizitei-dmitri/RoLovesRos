@@ -16,8 +16,8 @@ def generate_launch_description():
         name='rectify_node',
         namespace='camera',
         remappings=[
-            ('image', 'image_raw'),
-            ('camera_info', 'camera_info'),
+            ('image', '/image_raw'),
+            ('camera_info', '/camera_info'),
             ('image_rect', 'image_rect')
         ]
     )
