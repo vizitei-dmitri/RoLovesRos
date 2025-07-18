@@ -1,0 +1,1 @@
+Invoking command in '/root/ros2_ws/src/build/rlr_april_tags': AMENT_PREFIX_PATH=/root/ros2_ws/src/install/rlr_camera:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/src/install/rlr_camera:/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/rlr_april_tags -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rlr_april_tags

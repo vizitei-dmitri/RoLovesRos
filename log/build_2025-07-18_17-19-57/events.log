@@ -1,0 +1,336 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (rlr_bringup) JobQueued: {'identifier': 'rlr_bringup', 'dependencies': OrderedDict()}
+[0.000213] (rlr_camera) JobQueued: {'identifier': 'rlr_camera', 'dependencies': OrderedDict()}
+[0.000236] (rlr_tf_analysis) JobQueued: {'identifier': 'rlr_tf_analysis', 'dependencies': OrderedDict()}
+[0.000257] (rlr_april_tags) JobQueued: {'identifier': 'rlr_april_tags', 'dependencies': OrderedDict([('rlr_camera', '/root/ros2_ws/src/install/rlr_camera')])}
+[0.000284] (rlr_camera) JobStarted: {'identifier': 'rlr_camera'}
+[0.006397] (rlr_bringup) JobStarted: {'identifier': 'rlr_bringup'}
+[0.008035] (rlr_tf_analysis) JobStarted: {'identifier': 'rlr_tf_analysis'}
+[0.010417] (rlr_camera) JobProgress: {'identifier': 'rlr_camera', 'progress': 'cmake'}
+[0.011007] (rlr_camera) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/rlr_camera', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rlr_camera'], 'cwd': '/root/ros2_ws/src/build/rlr_camera', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.013550] (rlr_bringup) JobProgress: {'identifier': 'rlr_bringup', 'progress': 'cmake'}
+[0.014195] (rlr_bringup) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/rlr_bringup', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rlr_bringup'], 'cwd': '/root/ros2_ws/src/build/rlr_bringup', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.017788] (rlr_tf_analysis) JobProgress: {'identifier': 'rlr_tf_analysis', 'progress': 'cmake'}
+[0.018347] (rlr_tf_analysis) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/rlr_tf_analysis', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rlr_tf_analysis'], 'cwd': '/root/ros2_ws/src/build/rlr_tf_analysis', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_tf_analysis'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099380] (-) TimerEvent: {}
+[0.103845] (rlr_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.104232] (rlr_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.106215] (rlr_tf_analysis) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.159475] (rlr_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.159841] (rlr_tf_analysis) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.165575] (rlr_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.166387] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.166500] (rlr_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.170306] (rlr_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199541] (-) TimerEvent: {}
+[0.219202] (rlr_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.221949] (rlr_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.223672] (rlr_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.223958] (rlr_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.224398] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.224524] (rlr_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.226617] (rlr_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.226937] (rlr_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.227089] (rlr_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.227327] (rlr_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.228962] (rlr_tf_analysis) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.229106] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.229230] (rlr_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.229356] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.231745] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.289116] (rlr_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.290731] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.295206] (rlr_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.295421] (rlr_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.295657] (rlr_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.295790] (rlr_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.297287] (rlr_tf_analysis) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.297384] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.297719] (rlr_tf_analysis) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299556] (rlr_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299692] (-) TimerEvent: {}
+[0.299807] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300672] (rlr_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.300835] (rlr_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.301027] (rlr_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.302864] (rlr_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399811] (-) TimerEvent: {}
+[0.408527] (rlr_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.410867] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.415124] (rlr_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.483807] (rlr_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.484009] (rlr_camera) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.492499] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499937] (-) TimerEvent: {}
+[0.525682] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.525871] (rlr_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.525970] (rlr_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.530196] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.530552] (rlr_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.530771] (rlr_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.537774] (rlr_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.538098] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.538197] (rlr_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.549005] (rlr_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.549453] (rlr_tf_analysis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.549597] (rlr_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.572648] (rlr_tf_analysis) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.572834] (rlr_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.572925] (rlr_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600072] (-) TimerEvent: {}
+[0.611498] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.611733] (rlr_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.613907] (rlr_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.614032] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.620506] (rlr_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.623181] (rlr_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.690973] (rlr_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.691151] (rlr_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.691524] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.700171] (-) TimerEvent: {}
+[0.718619] (rlr_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.719013] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.719591] (rlr_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.755563] (rlr_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.755955] (rlr_tf_analysis) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.758126] (rlr_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.763700] (rlr_tf_analysis) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.764103] (rlr_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.764223] (rlr_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800310] (-) TimerEvent: {}
+[0.817540] (rlr_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.817708] (rlr_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.821003] (rlr_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.821152] (rlr_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.826888] (rlr_tf_analysis) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.827187] (rlr_tf_analysis) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.869988] (rlr_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.871285] (rlr_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.873739] (rlr_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.874469] (rlr_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.879925] (rlr_tf_analysis) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.880634] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900438] (-) TimerEvent: {}
+[0.916754] (rlr_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.917069] (rlr_camera) StdoutLine: {'line': b'-- Found v4l2_camera: 0.6.2 (/opt/ros/humble/share/v4l2_camera/cmake)\n'}
+[0.917176] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.943701] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.964730] (rlr_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.972156] (rlr_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.972886] (rlr_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.973476] (rlr_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.974605] (rlr_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.976531] (rlr_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.981481] (rlr_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[0.983489] (rlr_bringup) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/src/build/rlr_bringup\n'}
+[0.990164] (rlr_bringup) CommandEnded: {'returncode': 0}
+[0.990359] (rlr_bringup) JobProgress: {'identifier': 'rlr_bringup', 'progress': 'build'}
+[0.990376] (rlr_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/src/build/rlr_bringup', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/src/build/rlr_bringup', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.000533] (-) TimerEvent: {}
+[1.023032] (rlr_camera) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.023700] (rlr_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.024428] (rlr_camera) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.024550] (rlr_bringup) CommandEnded: {'returncode': 0}
+[1.025033] (rlr_bringup) JobProgress: {'identifier': 'rlr_bringup', 'progress': 'install'}
+[1.025402] (rlr_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.025799] (rlr_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.028619] (rlr_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[1.030090] (rlr_camera) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/src/build/rlr_camera\n'}
+[1.032064] (rlr_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/src/build/rlr_bringup'], 'cwd': '/root/ros2_ws/src/build/rlr_bringup', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.036223] (rlr_camera) CommandEnded: {'returncode': 0}
+[1.036647] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.036919] (rlr_camera) JobProgress: {'identifier': 'rlr_camera', 'progress': 'build'}
+[1.037344] (rlr_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/src/build/rlr_camera', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/src/build/rlr_camera', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.038591] (rlr_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.038808] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/ament_index/resource_index/package_run_dependencies/rlr_bringup\n'}
+[1.039039] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/ament_index/resource_index/parent_prefix_path/rlr_bringup\n'}
+[1.039228] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/environment/ament_prefix_path.sh\n'}
+[1.039346] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/environment/ament_prefix_path.dsv\n'}
+[1.039479] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/environment/path.sh\n'}
+[1.039613] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/environment/path.dsv\n'}
+[1.039726] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/local_setup.bash\n'}
+[1.039841] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/local_setup.sh\n'}
+[1.039960] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/local_setup.zsh\n'}
+[1.040074] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/local_setup.dsv\n'}
+[1.040192] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/package.dsv\n'}
+[1.040338] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/ament_index/resource_index/packages/rlr_bringup\n'}
+[1.040482] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/cmake/rlr_bringupConfig.cmake\n'}
+[1.040577] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/cmake/rlr_bringupConfig-version.cmake\n'}
+[1.040687] (rlr_bringup) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_bringup/share/rlr_bringup/package.xml\n'}
+[1.042897] (rlr_bringup) CommandEnded: {'returncode': 0}
+[1.063094] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[1.067784] (rlr_bringup) JobEnded: {'identifier': 'rlr_bringup', 'rc': 0}
+[1.070670] (rlr_camera) CommandEnded: {'returncode': 0}
+[1.071152] (rlr_camera) JobProgress: {'identifier': 'rlr_camera', 'progress': 'install'}
+[1.071366] (rlr_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/src/build/rlr_camera'], 'cwd': '/root/ros2_ws/src/build/rlr_camera', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.078353] (rlr_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.078497] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/config\n'}
+[1.078595] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/config/param.yaml\n'}
+[1.078627] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/launch\n'}
+[1.078653] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/launch/camera.launch.py\n'}
+[1.078711] (rlr_camera) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//launch\n'}
+[1.078767] (rlr_camera) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//launch/camera.launch.py\n'}
+[1.078817] (rlr_camera) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//config\n'}
+[1.078843] (rlr_camera) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//config/param.yaml\n'}
+[1.078867] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration\n'}
+[1.078909] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0024.png\n'}
+[1.078933] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0034.png\n'}
+[1.078957] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/ost.yaml\n'}
+[1.079006] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0010.png\n'}
+[1.079058] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0064.png\n'}
+[1.079109] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0071.png\n'}
+[1.079206] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0025.png\n'}
+[1.079292] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0017.png\n'}
+[1.079370] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0049.png\n'}
+[1.079470] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0061.png\n'}
+[1.079556] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0050.png\n'}
+[1.079638] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0020.png\n'}
+[1.079727] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0047.png\n'}
+[1.079808] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0016.png\n'}
+[1.079889] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0060.png\n'}
+[1.079984] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0052.png\n'}
+[1.080075] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0065.png\n'}
+[1.080162] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0035.png\n'}
+[1.080248] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0011.png\n'}
+[1.080333] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0029.png\n'}
+[1.080433] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0015.png\n'}
+[1.080516] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0063.png\n'}
+[1.080602] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0005.png\n'}
+[1.080687] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0018.png\n'}
+[1.080772] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0067.png\n'}
+[1.080855] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0040.png\n'}
+[1.080946] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0030.png\n'}
+[1.081036] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0022.png\n'}
+[1.081123] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0008.png\n'}
+[1.081209] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0046.png\n'}
+[1.081300] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0057.png\n'}
+[1.081384] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0032.png\n'}
+[1.081477] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0031.png\n'}
+[1.081560] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0039.png\n'}
+[1.081666] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0045.png\n'}
+[1.081751] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0038.png\n'}
+[1.081872] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0070.png\n'}
+[1.081986] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0058.png\n'}
+[1.082072] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0072.png\n'}
+[1.082193] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/ost.txt\n'}
+[1.082243] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0043.png\n'}
+[1.082379] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0051.png\n'}
+[1.082577] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0036.png\n'}
+[1.082635] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0055.png\n'}
+[1.082685] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0044.png\n'}
+[1.082732] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0066.png\n'}
+[1.082821] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0027.png\n'}
+[1.082907] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0014.png\n'}
+[1.082996] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0053.png\n'}
+[1.083119] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0007.png\n'}
+[1.083237] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0069.png\n'}
+[1.083356] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0000.png\n'}
+[1.083441] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0054.png\n'}
+[1.083575] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0048.png\n'}
+[1.083667] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0006.png\n'}
+[1.083763] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0021.png\n'}
+[1.083908] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0068.png\n'}
+[1.084085] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0012.png\n'}
+[1.084204] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0001.png\n'}
+[1.084310] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0009.png\n'}
+[1.084400] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0013.png\n'}
+[1.084524] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0028.png\n'}
+[1.084595] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0037.png\n'}
+[1.084625] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0026.png\n'}
+[1.084725] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0002.png\n'}
+[1.084872] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0073.png\n'}
+[1.084982] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0023.png\n'}
+[1.085082] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0041.png\n'}
+[1.085164] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0056.png\n'}
+[1.085281] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0042.png\n'}
+[1.085369] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0062.png\n'}
+[1.085473] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0004.png\n'}
+[1.085571] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0059.png\n'}
+[1.085672] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0033.png\n'}
+[1.085753] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0019.png\n'}
+[1.085839] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera//calibration/left-0003.png\n'}
+[1.086022] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/ament_index/resource_index/package_run_dependencies/rlr_camera\n'}
+[1.086093] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/ament_index/resource_index/parent_prefix_path/rlr_camera\n'}
+[1.086157] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/environment/ament_prefix_path.sh\n'}
+[1.086209] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/environment/ament_prefix_path.dsv\n'}
+[1.086253] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/environment/path.sh\n'}
+[1.086299] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/environment/path.dsv\n'}
+[1.086342] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/local_setup.bash\n'}
+[1.086385] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/local_setup.sh\n'}
+[1.086435] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/local_setup.zsh\n'}
+[1.086484] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/local_setup.dsv\n'}
+[1.086528] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/package.dsv\n'}
+[1.086590] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/ament_index/resource_index/packages/rlr_camera\n'}
+[1.086646] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/cmake/rlr_cameraConfig.cmake\n'}
+[1.086684] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/cmake/rlr_cameraConfig-version.cmake\n'}
+[1.086724] (rlr_camera) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/src/install/rlr_camera/share/rlr_camera/package.xml\n'}
+[1.088022] (rlr_camera) CommandEnded: {'returncode': 0}
+[1.099968] (rlr_camera) JobEnded: {'identifier': 'rlr_camera', 'rc': 0}
+[1.100658] (-) TimerEvent: {}
+[1.100710] (rlr_april_tags) JobStarted: {'identifier': 'rlr_april_tags'}
+[1.104232] (rlr_april_tags) JobProgress: {'identifier': 'rlr_april_tags', 'progress': 'cmake'}
+[1.104786] (rlr_april_tags) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/rlr_april_tags', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rlr_april_tags'], 'cwd': '/root/ros2_ws/src/build/rlr_april_tags', 'env': OrderedDict([('HOSTNAME', 'BenLaptop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/src/install/rlr_camera:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/src/build/rlr_april_tags'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/src/install/rlr_camera:/opt/ros/humble')]), 'shell': False}
+[1.116709] (rlr_tf_analysis) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.116885] (rlr_tf_analysis) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.116924] (rlr_tf_analysis) StdoutLine: {'line': b'See also "/root/ros2_ws/src/build/rlr_tf_analysis/CMakeFiles/CMakeOutput.log".\n'}
+[1.117016] (rlr_tf_analysis) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:18 (message):\n'}
+[1.117061] (rlr_tf_analysis) StderrLine: {'line': b'  find_package(ament_lint_auto) must be called before ament_package()\n'}
+[1.117093] (rlr_tf_analysis) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.117118] (rlr_tf_analysis) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:41 (include)\n'}
+[1.117142] (rlr_tf_analysis) StderrLine: {'line': b'  CMakeLists.txt:68 (find_package)\n'}
+[1.117167] (rlr_tf_analysis) StderrLine: {'line': b'\n'}
+[1.117192] (rlr_tf_analysis) StderrLine: {'line': b'\x1b[0m\n'}
+[1.123422] (rlr_tf_analysis) CommandEnded: {'returncode': 1}
+[1.137678] (rlr_tf_analysis) JobEnded: {'identifier': 'rlr_tf_analysis', 'rc': 1}
+[1.153307] (rlr_april_tags) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.195228] (rlr_april_tags) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.199861] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.200732] (-) TimerEvent: {}
+[1.253347] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.257373] (rlr_april_tags) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.257579] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.257811] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.259665] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.300914] (-) TimerEvent: {}
+[1.321323] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.326003] (rlr_april_tags) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.326218] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.326574] (rlr_april_tags) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.328299] (rlr_april_tags) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.401101] (-) TimerEvent: {}
+[1.425284] (rlr_april_tags) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.484189] (rlr_april_tags) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.501308] (-) TimerEvent: {}
+[1.509852] (rlr_april_tags) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.512934] (rlr_april_tags) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.518183] (rlr_april_tags) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.525434] (rlr_april_tags) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.535058] (rlr_april_tags) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.561452] (rlr_april_tags) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.563208] (rlr_april_tags) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.601532] (-) TimerEvent: {}
+[1.628743] (rlr_april_tags) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.648719] (rlr_april_tags) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.679497] (rlr_april_tags) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.685054] (rlr_april_tags) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.701641] (-) TimerEvent: {}
+[1.742096] (rlr_april_tags) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.742312] (rlr_april_tags) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.797523] (rlr_april_tags) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.798380] (rlr_april_tags) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.801754] (-) TimerEvent: {}
+[1.829827] (rlr_april_tags) StdoutLine: {'line': b'-- Found apriltag_ros: 3.2.2 (/opt/ros/humble/share/apriltag_ros/cmake)\n'}
+[1.831257] (rlr_april_tags) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.878367] (rlr_april_tags) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.890580] (rlr_april_tags) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[1.898436] (rlr_april_tags) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.901821] (-) TimerEvent: {}
+[1.948454] (rlr_april_tags) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.948717] (rlr_april_tags) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.948849] (rlr_april_tags) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.949273] (rlr_april_tags) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.949912] (rlr_april_tags) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.952706] (rlr_april_tags) StdoutLine: {'line': b'-- Generating done\n'}
+[1.954234] (rlr_april_tags) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/src/build/rlr_april_tags\n'}
+[1.960616] (rlr_april_tags) JobEnded: {'identifier': 'rlr_april_tags', 'rc': 'SIGINT'}
+[1.971255] (-) EventReactorShutdown: {}
