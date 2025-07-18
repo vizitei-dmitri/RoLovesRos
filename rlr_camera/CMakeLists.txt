@@ -12,7 +12,10 @@ find_package(std_msgs REQUIRED)
 find_package(v4l2_camera REQUIRED)
 
 
-
+install(
+  DIRECTORY config launch
+  DESTINATION share/${PROJECT_NAME}
+)
 
 
 install(DIRECTORY

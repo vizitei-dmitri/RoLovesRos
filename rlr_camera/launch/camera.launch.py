@@ -9,7 +9,7 @@ def generate_launch_description():
     config_path = os.path.join(
         get_package_share_directory('rlr_camera'),
         'config',
-        'params.yaml'
+        'param.yaml'
     )
 
     camera_node=Node(

@@ -11,6 +11,18 @@
 
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
+  <!-- added -->
+
+  <depend>image_proc</depend>
+  <exec_depend>v4l2_camera</exec_depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>apriltag_msgs</depend>
+  <exec_depend>rlr_camera</exec_depend>
+  <exec_depend>apriltag_ros</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
