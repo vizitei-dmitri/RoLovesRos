@@ -37,6 +37,7 @@ RUN apt-get update && apt-get upgrade -y && \
     sudo \
     git \
     python3-pip \
+    os-${ROS_DISTRO}-tf2-tools \
     ros-${ROS_DISTRO}-gazebo-ros \
     ros-${ROS_DISTRO}-robot-state-publisher \
     ros-${ROS_DISTRO}-joint-state-publisher \
