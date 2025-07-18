@@ -9,7 +9,6 @@ def generate_launch_description():
         'config',
         'apriltag.yaml'
     )
-    
 
     rectify_node = Node(
         package='image_proc',
