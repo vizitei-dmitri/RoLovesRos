@@ -1,6 +1,0 @@
-Invoking command in '/root/ros2_ws/src/build/rlr_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/rlr_camera -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rlr_camera
-Invoked command in '/root/ros2_ws/src/build/rlr_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ros2_ws/src/rlr_camera -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/install/rlr_camera
-Invoking command in '/root/ros2_ws/src/build/rlr_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/rlr_camera -- -j16 -l16
-Invoked command in '/root/ros2_ws/src/build/rlr_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/src/build/rlr_camera -- -j16 -l16
-Invoking command in '/root/ros2_ws/src/build/rlr_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/rlr_camera
-Invoked command in '/root/ros2_ws/src/build/rlr_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/src/build/rlr_camera
