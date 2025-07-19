@@ -1,0 +1,26 @@
+image_width: 640
+image_height: 480
+camera_name: a4tech_fhd_1080p_pc_camera:_a4t
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [787.69443,   0.     , 293.08816,
+           0.     , 779.57348, 218.28192,
+           0.     ,   0.     ,   1.     ]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.204448, -0.911306, 0.006863, -0.010363, 0.000000]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1., 0., 0.,
+         0., 1., 0.,
+         0., 0., 1.]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [791.07318,   0.     , 287.5332 ,   0.     ,
+           0.     , 790.12573, 219.381  ,   0.     ,
+           0.     ,   0.     ,   1.     ,   0.     ]

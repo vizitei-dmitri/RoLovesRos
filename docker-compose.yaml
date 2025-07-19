@@ -1,5 +1,5 @@
 x-common: &common-setup
-  image: fabook/control:iros-0.0.1
+  image: fabook/control:iros-0.0.4
   network_mode: host
   privileged: true
   volumes: 
@@ -19,6 +19,11 @@ x-common: &common-setup
     "
 
 services:
+  camera:
+      build: ./rlr_camera
+      devices:
+        - "/dev/video0:/dev/video0"
+      privileged: true
   terminal:
     <<: *common-setup
     stdin_open: true  # docker run -i
