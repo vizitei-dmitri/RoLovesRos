@@ -1,20 +1,16 @@
-[submodule "DynamixelSDK"]
-    path = turtle/DynamixelSDK
-    url = https://github.com/ROBOTIS-GIT/DynamixelSDK
-    branch = humble  # Официальная ROS 2 ветка (не всегда есть jazzy, но ros2 обычно совместима)
-
-[submodule "turtlebot3"]
-    path = turtle/turtlebot3
-    url = https://github.com/ROBOTIS-GIT/turtlebot3
-    branch = humble  # Основная ветка для ROS 2 (jazzy может не быть, но ros2 совместима)
-
-[submodule "turtlebot3_msgs"]
-    path = turtle/turtlebot3_msgs
-    url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs
-    branch = humble  # Ветка для ROS 2
-
-[submodule "turtlebot3_simulations"]
-    path = turtle/turtlebot3_simulations
-    url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations
-    branch = humble  # Ветка для ROS 2
-
+[submodule "turtle/DynamixelSDK"]
+	path = turtle/DynamixelSDK
+	url = https://github.com/ROBOTIS-GIT/DynamixelSDK
+	branch = humble
+[submodule "turtle/turtlebot3"]
+	path = turtle/turtlebot3
+	url = https://github.com/ROBOTIS-GIT/turtlebot3
+	branch = humble
+[submodule "turtle/turtlebot3_msgs"]
+	path = turtle/turtlebot3_msgs
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_msgs
+	branch = humble
+[submodule "turtle/turtlebot3_simulations"]
+	path = turtle/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations
+	branch = humble

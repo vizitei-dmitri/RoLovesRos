@@ -21,6 +21,7 @@ def generate_launch_description():
             ]
         ),
         launch_arguments=[
+            {'image_source': "/dev/video0"},
         ],
     )
 
@@ -56,14 +57,21 @@ def generate_launch_description():
         ],
     )
 
+
     rviz = Node(
             package='rviz2',
             executable='rviz2',
         )
 
+    goal = Node(
+            package='rlr_apriltag_nav2',
+            executable='apriltag_to_nav2',
+        )
+
     return LaunchDescription([
         camera_launch,
         april_tags_launch,
-        rlr_tf_analysis,
+        #rlr_tf_analysis,
+        goal,
         rviz
     ])
