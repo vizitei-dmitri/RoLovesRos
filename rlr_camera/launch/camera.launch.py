@@ -36,7 +36,7 @@ def generate_launch_description():
 	    executable='v4l2_camera_node',
 	    name='v4l2_camera',
 	    parameters=[
-            {'camera_nam': LaunchConfiguration("camera_name")},
+            {'camera_name': LaunchConfiguration("camera_name")},
             {'video_device': LaunchConfiguration("image_source")},
             {'camera_info_url': f'file://{calibration}'},
             config_path],
