@@ -54,6 +54,7 @@ RUN apt-get update && apt-get upgrade -y && \
     ros-${ROS_DISTRO}-v4l2-camera \
     ros-${ROS_DISTRO}-camera-calibration \
     ros-${ROS_DISTRO}-gazebo-ros-pkgs \
+    ros-${ROS_DISTRO}-nav2-bringup \
     libcanberra-gtk-module \
     libcanberra-gtk3-module \
     at-spi2-core \

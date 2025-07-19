@@ -64,6 +64,6 @@ def generate_launch_description():
     return LaunchDescription([
         camera_launch,
         april_tags_launch,
-        rlr_tf_analysis,
-        rviz
+        #rlr_tf_analysis,
+        #rviz
     ])
